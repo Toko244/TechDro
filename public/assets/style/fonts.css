@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'LibreFranklin-SemiBold';
+    src: url('../fonts/LibreFranklin-SemiBold.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LibreFranklin-Thin';
+    src: url('../fonts/LibreFranklin-Thin.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LibreFranklin-Medium';
+    src: url('../fonts/LibreFranklin-Medium.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LibreFranklin-Bold';
+    src: url('../fonts/LibreFranklin-Bold.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LibreFranklin-Regular';
+    src: url('../fonts/LibreFranklin-Regular.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'LEMONMILK-Medium';
+    src: url('../fonts/LEMONMILK-Medium.woff2') format('woff2'),
+        url('../fonts/LEMONMILK-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LEMONMILK-Regular';
+    src: url('../fonts/LEMONMILK-Regular.woff2') format('woff2'),
+        url('../fonts/LEMONMILK-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BPGNinoMtavruli-Bold';
+    src: url('../fonts/BPGNinoMtavruli-Bold.woff2') format('woff2'),
+        url('../fonts/BPGNinoMtavruli-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BPGDejaVuSans';
+    src: url('../fonts/BPGDejaVuSans.woff2') format('woff2'),
+        url('../fonts/BPGDejaVuSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.lemon-regular{
+    font-family: 'LEMONMILK-Regular';
+}
+.lemon-medium{
+    font-family: 'LEMONMILK-Medium';
+}
+.thin{
+    font-family: 'LibreFranklin-Thin';
+}
+.bold{
+    font-family: 'LibreFranklin-Bold';
+}
+.semibold{
+    font-family: 'LibreFranklin-SemiBold';
+}
+.medium{
+    font-family: 'LibreFranklin-Medium';
+}
+.regular{
+    font-family: 'LibreFranklin-Regular';
+}
+html:lang(ka) .bold,
+html:lang(ka) .medium{
+    font-family: 'BPGDejaVuSans' !important;
+}
+
+html:lang(ka) .semibold{
+    font-family: 'BPGDejaVuSans' !important;
+}
+
+html:lang(ka) .title,
+html:lang(ka) .menu-item a,
+html:lang(ka) .menu-item .down-footer-info a,
+html:lang(ka) .semibold, 
+html:lang(ka) .ka-font-nino,
+html:lang(ka) .book-info .title
+html:lang(ka) .title h3{
+    font-family: 'BPGNinoMtavruli-Bold' !important;
+}
+
+html:lang(ka) .text,
+html:lang(ka)  .burger-submenu a{
+    font-family: 'BPGDejaVuSans' !important;
+}
+ 
+html:lang(ka) .book-text-01{
+    font-size: 16px;
+    margin-right: 2rem;
+}
+
